@@ -17,7 +17,7 @@ setup(
     description='averagejoe',
     author='Steve Ayers, Ph.D.',
     author_email='steve@sequenccecentral.com',
-    version='1.0',
+    version='1.0.1',
     include_package_data = True,
     package_data={'': []},
     url='https://github.com/sequencecentral/averagejoe.git',
