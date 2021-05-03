@@ -29,7 +29,7 @@ setup(
     # The license can be anything you like
     license='MIT',
     long_description=open('README.md').read(),
-    install_requires=open('requirements.txt').read(),
+    install_requires=['DateTime==4.3', 'numpy==1.20.2', 'pytz==2021.1', 'zope.interface==5.3.0'],
     # We will also need a readme eventually (there will be a warning)
     # long_description=open('README.txt').read(),
 )
