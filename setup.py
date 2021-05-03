@@ -3,21 +3,21 @@ from setuptools import setup, find_packages
 from setuptools.command.install import install as _install
 
 #custom post-installation steps go here:
-class Install(_install):
-    def run(self):
-        _install.do_egg_install(self)
-        #nothing else to do
+# class Install(_install):
+#     def run(self):
+#         _install.do_egg_install(self)
+#         #nothing else to do
 
 setup(
-    cmdclass={
-        'install': Install,
-    },
+    # cmdclass={
+    #     'install': Install,
+    # },
     name='averagejoe',
     packages=find_packages(),
     description='averagejoe',
     author='Steve Ayers, Ph.D.',
     author_email='steve@sequenccecentral.com',
-    version='1.0.2',
+    version='1.0.3',
     include_package_data = True,
     package_data={'': []},
     url='https://github.com/sequencecentral/averagejoe.git',
